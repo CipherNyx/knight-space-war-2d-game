@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.mainBG {
+    width: 100%;
+    height: 100vh;
+    background-image: url("loading_BG.png");
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level1Text {
+    width: 332px;
+    height: 58px;
+    position: absolute;
+    margin-top: -150px;
+    transform: scale(1.3);
+    background-image: url("level1Text.png");
+}
+
+.level1LoadingBar {
+    width: 1001px;
+    height: 51px;
+    position: absolute;
+    margin-top: 100px;
+    transform: scale(1.3);
+    background-image: url("main_loading_bar.png");
+    background-position-x: -991px;
+    background-repeat: no-repeat;
+}
+
+.level1LoadingBar2 {
+    margin-left: -2590px;
+    background-position-x: 991px;
+}
+
+.loadingPresentage {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 135px;
+}
+
+
+/*Media Quaries for Varias Resolutions*/
+
+@media (min-width:3840px) {
+    .level1Text {
+        margin-top: -300px;
+    }
+    .level1LoadingBar {
+        transform: scale(3.3);
+    }
+    .level1LoadingBar2 {
+        margin-left: -6582px;
+    }
+    .loadingPresentage {
+        font-size: 100px;
+        margin-top: 195px;
+    }
+}

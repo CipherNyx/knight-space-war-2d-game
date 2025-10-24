@@ -1,0 +1,447 @@
+    body {
+        margin: 0px;
+        overflow: hidden;
+    }
+    
+    .mainMenuBackground {
+        width: 100%;
+        height: 100vh;
+        background-image: url("Main_menu_Background.jpg");
+        background-size: 100vw 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .gameTitle {
+        width: 1920px;
+        height: 465px;
+        position: absolute;
+        margin-top: -500px;
+        transform: scale(0.48);
+        background-image: url("RobotSpaceWar.png");
+    }
+    
+    .btn-play {
+        width: 1200px;
+        height: 489px;
+        position: absolute;
+        margin-left: -150px;
+        margin-top: 175px;
+        transform: scale(0.38);
+        background-image: url("play_Unpressed.png");
+    }
+    
+    .btn-play:hover {
+        cursor: pointer;
+        transform: scale(0.4);
+    }
+    
+    .btn-play:active {
+        background-image: url("play_Pressed.png");
+        transform: scale(0.38);
+    }
+    
+    .btn-info {
+        width: 210px;
+        height: 210px;
+        position: absolute;
+        margin-top: 480px;
+        margin-left: -330px;
+        transform: scale(0.50);
+        background-image: url("info_unpressed.png");
+    }
+    
+    .btn-info:hover {
+        cursor: pointer;
+        transform: scale(0.55);
+    }
+    
+    .btn-info:active {
+        background-image: url("info_pressed.png");
+        transform: scale(0.50);
+    }
+    
+    .btn-settings {
+        width: 210px;
+        height: 210px;
+        position: absolute;
+        margin-top: 480px;
+        margin-left: 30px;
+        transform: scale(0.50);
+        background-image: url("settings_unpressed.png");
+    }
+    
+    .btn-settings:hover {
+        cursor: pointer;
+        transform: scale(0.55);
+    }
+    
+    .btn-settings:active {
+        background-image: url("settings_pressed.png");
+        transform: scale(0.50);
+    }
+    
+    .btn-Music {
+        width: 210px;
+        height: 210px;
+        position: absolute;
+        margin-left: 1150px;
+        margin-top: -530px;
+        transform: scale(0.40);
+        background-image: url("Music_BTN_Unpressed.png");
+    }
+    
+    .btn-Music:hover {
+        cursor: pointer;
+    }
+    
+    .btn-Music:active {
+        background-image: url("Music_BTN_Pressed.png");
+        transform: scale(0.35);
+    }
+    
+    .pod-platform {
+        width: 418px;
+        height: 113px;
+        position: absolute;
+        margin-left: -860px;
+        margin-top: 580px;
+        transform: scale(0.8);
+        background-image: url("Pad_3_3.png");
+    }
+    
+    .hero-robot {
+        width: 567px;
+        height: 556px;
+        position: absolute;
+        margin-left: -850px;
+        margin-top: 280px;
+        transform: scale(0.52);
+        background-image: url("1_robotfree_Idle.png");
+    }
+    
+    .pod-platform2 {
+        width: 418px;
+        height: 113px;
+        position: absolute;
+        margin-left: 700px;
+        margin-top: 560px;
+        transform: scale(1.25);
+        background-image: url("Pad_3_3.png");
+    }
+    
+    .alien-9 {
+        width: 689px;
+        height: 648px;
+        position: absolute;
+        margin-left: 690px;
+        margin-top: 110px;
+        transform: scale(0.72);
+        background-image: url("1_alien9_Idle.png");
+    }
+    
+    .spaceWindow1 {
+        width: 940px;
+        height: 1400px;
+        position: absolute;
+        background-image: url("Window.png");
+        transform: scale(0.67);
+    }
+    
+    .spaceWindow2 {
+        width: 940px;
+        height: 1400px;
+        position: absolute;
+        background-image: url("info_window_with_details.png");
+        transform: scale(0.67);
+    }
+    
+    .settingsWindow {
+        background-image: url("Window_2.png");
+    }
+    
+    .infoText {
+        width: 606px;
+        height: 59px;
+        margin-top: 5.5%;
+        margin-left: 7%;
+        background-image: url("InformationText.png");
+    }
+    
+    .windowCloseButton {
+        width: 210px;
+        height: 210px;
+        background-image: url("Close_BTN_Unpressed.png");
+        margin-left: 80%;
+        margin-top: -14%;
+        transform: scale(0.4);
+    }
+    
+    .windowCloseButton:hover {
+        cursor: pointer;
+    }
+    
+    .windowCloseButton:active {
+        background-image: url("Close_BTN_Pressed.png");
+    }
+    
+    .settingsText {
+        width: 435px;
+        height: 59px;
+        margin-top: 5.5%;
+        margin-left: 7%;
+        background-image: url("SettingsText.png");
+    }
+    
+    .fullScreenText {
+        width: 1830px;
+        height: 336px;
+        position: absolute;
+        margin-left: -430px;
+        margin-top: -75px;
+        transform: scale(0.45);
+        background-image: url("Full_Screen_Unpressed.png");
+    }
+    
+    .fullScreenText:hover {
+        cursor: pointer;
+        transform: scale(0.44);
+    }
+    
+    .fullScreenText:active {
+        background-image: url("Full_Screen_Pressed.png");
+        transform: scale(0.43);
+    }
+    
+    .musicText {
+        width: 1026px;
+        height: 336px;
+        margin-left: -30px;
+        margin-top: 140px;
+        transform: scale(0.45);
+        background-image: url("Music_Text_Unpressed.png");
+    }
+    
+    .musicText:hover {
+        cursor: pointer;
+        transform: scale(0.44);
+    }
+    
+    .musicText:active {
+        transform: scale(0.43);
+        background-image: url("Music_Text_Pressed.png");
+    }
+    /*Media Quaries for Varias Resolutions*/
+    
+    @media(min-width:1280px) {
+        .gameTitle {
+            margin-top: -500px;
+            transform: scale(0.48);
+        }
+        .btn-play {
+            margin-left: -150px;
+            margin-top: 175px;
+            transform: scale(0.38);
+        }
+        .btn-play:hover {
+            transform: scale(0.4);
+        }
+        .btn-play:active {
+            transform: scale(0.38);
+        }
+        .btn-info {
+            margin-top: 480px;
+            margin-left: -330px;
+            transform: scale(0.50);
+        }
+        .btn-info:hover {
+            transform: scale(0.55);
+        }
+        .btn-info:active {
+            transform: scale(0.50);
+        }
+        .btn-settings {
+            margin-top: 480px;
+            margin-left: 30px;
+            transform: scale(0.50);
+        }
+        .btn-settings:hover {
+            transform: scale(0.55);
+        }
+        .btn-settings:active {
+            transform: scale(0.50);
+        }
+        .btn-Music {
+            margin-left: 1150px;
+            margin-top: -530px;
+            transform: scale(0.40);
+        }
+        .btn-Music:active {
+            transform: scale(0.35);
+        }
+        .pod-platform {
+            margin-left: -860px;
+            margin-top: 580px;
+            transform: scale(0.8);
+        }
+        .hero-robot {
+            margin-left: -850px;
+            margin-top: 280px;
+            transform: scale(0.52);
+        }
+        .pod-platform2 {
+            margin-left: 700px;
+            margin-top: 560px;
+            transform: scale(1.25);
+        }
+        .alien-9 {
+            margin-top: 110px;
+            transform: scale(0.72);
+        }
+        .spaceWindow1 {
+            transform: scale(0.48);
+        }
+    }
+    
+    @media(min-width:1920px) {
+        .gameTitle {
+            margin-top: -750px;
+            transform: scale(0.75);
+        }
+        .btn-play {
+            margin-top: 185px;
+            margin-left: -250px;
+            transform: scale(0.68);
+        }
+        .btn-play:hover {
+            transform: scale(0.7);
+        }
+        .btn-play:active {
+            transform: scale(0.68);
+        }
+        .btn-info {
+            margin-top: 700px;
+            margin-left: -500px;
+            transform: scale(0.95);
+        }
+        .btn-info:hover {
+            transform: scale(1);
+        }
+        .btn-info:active {
+            transform: scale(0.95);
+        }
+        .btn-settings {
+            margin-top: 700px;
+            margin-left: 0px;
+            transform: scale(0.95);
+        }
+        .btn-settings:hover {
+            transform: scale(1);
+        }
+        .btn-settings:active {
+            transform: scale(0.95);
+        }
+        .btn-Music {
+            margin-left: 1750px;
+            margin-top: -800px;
+            transform: scale(0.59);
+        }
+        .btn-Music:active {
+            transform: scale(0.53);
+        }
+        .pod-platform {
+            margin-left: -1350px;
+            margin-top: 880px;
+            transform: scale(1.2);
+        }
+        .hero-robot {
+            margin-left: -1350px;
+            margin-top: 430px;
+            transform: scale(0.78);
+        }
+        .pod-platform2 {
+            margin-left: 1050px;
+            margin-top: 800px;
+            transform: scale(1.9);
+        }
+        .alien-9 {
+            margin-left: 1050px;
+            margin-top: 180px;
+            transform: scale(1);
+        }
+        .spaceWindow1 {
+            transform: scale(0.67);
+        }
+    }
+    
+    @media(min-width:3840px) {
+        .gameTitle {
+            margin-top: -1550px;
+            transform: scale(1.6);
+        }
+        .btn-play {
+            margin-top: 420px;
+            margin-left: -450px;
+            transform: scale(1.17);
+        }
+        .btn-play:hover {
+            transform: scale(1.2);
+        }
+        .btn-play:active {
+            transform: scale(1.17);
+        }
+        .btn-info {
+            margin-top: 1400px;
+            margin-left: -950px;
+            transform: scale(1.78);
+        }
+        .btn-info:hover {
+            transform: scale(1.8);
+        }
+        .btn-info:active {
+            transform: scale(1.78);
+        }
+        .btn-settings {
+            margin-top: 1400px;
+            margin-left: 0px;
+            transform: scale(1.78);
+        }
+        .btn-settings:hover {
+            transform: scale(1.8);
+        }
+        .btn-settings:active {
+            transform: scale(1.78);
+        }
+        .btn-Music {
+            margin-left: 3450px;
+            margin-top: -1700px;
+            transform: scale(0.9);
+        }
+        .btn-Music:active {
+            transform: scale(0.85);
+        }
+        .pod-platform {
+            margin-left: -2650px;
+            margin-top: 1800px;
+            transform: scale(2.5);
+        }
+        .hero-robot {
+            margin-left: -2650px;
+            margin-top: 900px;
+            transform: scale(1.6);
+        }
+        .pod-platform2 {
+            margin-left: 2100px;
+            margin-top: 1650px;
+            transform: scale(3.9);
+        }
+        .alien-9 {
+            margin-left: 2050px;
+            margin-top: 280px;
+            transform: scale(2.1);
+        }
+        .spaceWindow1 {
+            transform: scale(1.4);
+        }
+    }
